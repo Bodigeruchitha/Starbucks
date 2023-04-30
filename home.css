@@ -1,15 +1,22 @@
 body{
-    background-color: whitesmoke;
     /* width: 90%; */
+    padding:0 4%;
     margin-top:5%;
-    margin-left:5%;
-
-}   
-
+    margin-left:10%;
+    margin-right:10%;
+    background-color: white;
+    color: black;
+}  
+.mydark{
+        background-color:black;
+        color:white
+} 
 /*Header Section*/
 header{
-    padding: 10px;
+    margin-top: 20px;
     background-color:#e7e7e7;    
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+
 }
 .home{
     font-family: SoDoSans_Semibold,Helvetica,sans-serif;
@@ -18,8 +25,8 @@ header{
 }
 .gift{
     font-family:SoDoSans_Semibold,Helvetica,sans-serif;
-    /* float:left */
-}
+    /*float:left */
+} */
 .order{
    font-family:SoDoSans_Semibold,Helvetica,sans-serif;
    /* float:left */
@@ -32,13 +39,19 @@ header{
     font-family:SoDoSans_Semibold,Helvetica,sans-serif;
     /* float:left */
  }
- .text{
-   margin-right:8%;
-   float:left;
-   /* line-height:10px; */
-   margin-top:10px;
-   
- }
+.text{
+    margin-right:3%;
+    float:left;
+    /* line-height:10px; */
+    margin-newlaunchtxttop:10px;
+}
+/* .uppersection p{
+    display:flex;
+}
+.uppersection{
+    display: flex;
+    margin
+} */
 .signin{
     float: right;
     font-size:20px;
@@ -217,13 +230,11 @@ padding:15px;
 footer{
     background-color:#0e382c;
     overflow: hidden;
-
 }
 footer a{
     font-family:Pike_Regular,Helvetica,sans-serif!important;
     text-decoration:none;
     color:whitesmoke;
-    
 }
 .pop:hover {
     transition:0.5;

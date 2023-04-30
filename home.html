@@ -5,14 +5,18 @@
     <link href="image/logo.png" rel="icon"/>
     <link href="home.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
+    <script>
+        function  changeMode(){
+            let mybody= document.body;
+            mybody.classList.toggle('mydark')
+        }
+    </script>
 </head>
 <body>
     <header>
          <div id="logo">
             <img src="https://www.starbucks.in/assets/icon/logo.png" alt="starbucks logo" height="50px">
         </div>
-    
         <div class="home text">
             <p>Home</p>
         </div>
@@ -28,17 +32,40 @@
         <div class="store text">
             <p>Store</p>
         </div>
-        <div class="searchtext">
-
-           <input type="text" class="input" placeholder="search">
-           <div class="signin">
+        <div class="search text">
+        <input type="text" class="input" placeholder="search">
+        </div>
+        <div><button onclick="changeMode()" class="glyphicon glyphicon-certificate text"></button></div>
+        <div class="signin text ">
                  <a href="#">
                     <span class="glyphicon glyphicon-user">Sign Up</span></a>
                  <a href="#">
                      <span class="glyphicon glyphicon-log-in">Login</span></a>
-           </div>
+        </div>
         </div>
     </header>
+    <!-- <header class="header">
+        <div id="logo">
+            <img src="https://www.starbucks.in/assets/icon/logo.png" alt="starbucks logo" height="50px">
+        </div>
+        <div class="uppersection">
+            <p>Home</p>
+            <p>Gift</p>
+            <p>Order</p>
+            <p>Pay</p>
+            <p>Store</p>  
+            <p><input type="text" class="input" placeholder="search"></p>
+            <p><button onclick="changeMode()" class="glyphicon glyphicon-certificate"></button></p>  </div>
+
+            <div class="signin  ">
+                <a href="#">
+                   <span class="glyphicon glyphicon-user">Sign Up</span></a>
+                <a href="#">
+                    <span class="glyphicon glyphicon-log-in">Login</span></a>
+       </div>   
+        </div> -->
+    </header>
+
     <div id="rewardssection">
       <div  class="haha "> 
          A world of rewards awaits you!Sign up now.
